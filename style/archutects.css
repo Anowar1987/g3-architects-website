@@ -136,10 +136,12 @@ main {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
-.feather-image img{
+
+.feather-image img {
     height: 90%;
     margin-left: 90px;
 }
+
 .Ten-years-badge {
     border-radius: 8px;
     background: #FF900E;
@@ -198,6 +200,7 @@ main {
     display: flex;
     justify-content: space-evenly;
 }
+
 
 
 
