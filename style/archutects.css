@@ -135,6 +135,15 @@ main {
     font-weight: 600;
     margin-top: 3px;
 }
+/* Sponspors style */
+.sponspors{
+    text-align: center;
+}
+.sponspors-image-comtainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 
@@ -146,12 +155,19 @@ main {
         padding: 20px;
     }
     nav, 
-    .team-container {
-            {
-            flex-direction: column;
+    .team-container,
+    .facts-card-container
+                        {
+        {
+        flex-direction: column;
         }
         .team-img-container{
             grid-template-columns: 1fr;
+        }
+        .facts-card-container{
+            gap: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
         }
         
     }
