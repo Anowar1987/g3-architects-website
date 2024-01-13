@@ -136,24 +136,29 @@ main {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
-
+.feather-image img{
+    height: 90%;
+    margin-left: 90px;
+}
 .Ten-years-badge {
     border-radius: 8px;
     background: #FF900E;
     color: #FFF;
     width: 342px;
     padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
 }
 
 .Ten-years-badge h2 {
-    text-align: center;
-    font-size: 65px;
+    font-size: 4rem;
     font-weight: 700;
+    margin: 0;
 }
 
 .Ten-years-badge p {
-    text-align: center;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
